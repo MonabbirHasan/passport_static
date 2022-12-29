@@ -1,0 +1,164 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .s-item .price{
+    bottom: 8%!important;
+  }
+   .about-content h2{
+    font-size: 30px!important;
+    width: auto!important;
+  }
+.col-md-6 {
+  width: 100%!important;
+  /* CSS */
+}
+.col-md-3{
+  margin-left: 8px!important;
+}
+  .page-title h1{
+    text-align: center!important;
+  }
+.item-text{
+  padding: 20px 0px!important;
+}
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 736px) and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .about-content h2{
+    font-size: 30px!important;
+    width: auto!important;
+  }
+.col-md-6 {
+  width: 100%!important;
+  /* CSS */
+}
+.col-md-3{
+  margin-left: 8px!important;
+}
+  .page-title h1{
+    text-align: center!important;
+  }
+.item-text{
+  padding: 20px 0px!important;
+}
+.s-item .price{
+  bottom: 32%!important;
+}
+
+
+
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner-content h1{
+    font-size: 21px!important;
+  }
+  .about-right-1{
+    transform: none!important;
+  }
+  .col-md-2{
+    text-align: center!important;
+  }
+  .social{
+    display: inline-block!important;
+    padding: 10px 0px!important;
+  }
+  .f-item{
+    text-align: center!important;
+  }
+
+.f-item {
+  padding: 30px 0px!important;  
+}
+.f-item ul li{
+  text-align: center!important;
+}
+
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-content p{
+    width: auto!important;
+    display: inline-block;
+  }
+  .about-content h2{
+    width: auto!important;
+  }
+  .about-content h2{
+    font-size: 23px!important;
+  }
+  .client p{
+    font-size: 15px!important;
+  }
+  .page-title h1{
+    font-size: 20px!important;
+  }
+  .col-md-2{
+    text-align: center!important;
+    padding: 20px 0px!important;
+  }
+  .social{
+    display: inline-table;
+  }
+  .f-item .social span{
+    font-size: 17px!important;
+    margin: 0px 5px!important;
+    padding:7px!important;
+  }
+  .f-item ul li{
+    text-align: center!important;
+  }
+  .f-item h5{
+    text-align: center!important;
+  }
+  .banner-content h1{
+    font-size: 26px!important;
+  }
+  /* CSS */
+  
+}
